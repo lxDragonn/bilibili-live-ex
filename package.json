@@ -1,0 +1,14 @@
+{
+  "name": "bilibili-live-ex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilibili 直播 Tampermonkey 脚本与离线回归测试",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check bilibili-live-ex.user.js"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "pako": "2.1.0"
+  }
+}
